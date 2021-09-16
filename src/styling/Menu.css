@@ -1,0 +1,35 @@
+.main-gallery-box{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+}
+.box-gallery-name-div{
+    padding: 10px;
+    background: black;
+    width: 50%;
+    margin: 0 auto;
+    color:white
+}
+.card-container{
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 24%;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding:10px;
+}
+.gallery-image{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.divider{
+    background:pink ;
+    height: 600px;
+}
+.name-title{
+    font-size:25px;
+}

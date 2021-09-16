@@ -1,0 +1,8 @@
+.slideshow{
+    height: 93vh;
+    font:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main-slide-div{
+    background:rgba(224, 232, 233, 0.562);
+    padding-top: 7vh;
+}
