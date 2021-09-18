@@ -4,5 +4,5 @@
 }
 .main-slide-div{
     background:rgba(224, 232, 233, 0.562);
-    padding-top: 7vh;
+    z-index: -1; /*this ensures that the nav always has priority */
 }
