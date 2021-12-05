@@ -26,20 +26,20 @@
 .image-size{
     width: 572px;
     border: 1px solid black;
-    border-radius: 25px;
+    border-radius: 10px;
     margin-right: 10px;
 }
 
 .div-input{
     width: 500px;
     border: 1px solid black;
-    border-radius: 25px;
+    border-radius: 10px;
     padding:10px;
     margin-bottom: 10px;
 }
 .div-message{
     border: 1px solid black;
-    border-radius: 25px;
+    border-radius: 10px;
     width: 500px;
     padding: 10px;
     height: 200px;

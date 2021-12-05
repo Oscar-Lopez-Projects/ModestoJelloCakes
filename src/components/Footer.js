@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () =>{
     return(
-        <div style={{background:"#88AFD1"}}>
+        <div>
         <div className="footer-div">
             <div className="main-footer">
                 <div className="mission-title">

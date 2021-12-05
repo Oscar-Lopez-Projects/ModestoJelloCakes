@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 import '../styling/Login.css'
-import { Button } from "bootstrap";
+
 const Login = () =>{
     return(
         <>
