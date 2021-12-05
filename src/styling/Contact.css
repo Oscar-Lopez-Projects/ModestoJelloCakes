@@ -1,0 +1,48 @@
+.contact-outer-div{
+    background: rgba(118, 238, 232, 0.068);
+    margin-bottom: 20px;
+    margin: 0 auto;
+    height: 93vh;
+}
+.top-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 10vh;
+}
+.bottom-div{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.form-div{
+    width: 500px;
+}
+.image-size{
+    width: 572px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.div-input{
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.div-message{
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 500px;
+    padding: 10px;
+    height: 200px;
+    margin-bottom: 10px;
+    resize: none;
+}

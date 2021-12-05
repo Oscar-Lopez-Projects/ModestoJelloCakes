@@ -1,8 +1,28 @@
 .slideshow{
     height: 93vh;
     font:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+   
 }
 .main-slide-div{
-    background:rgba(224, 232, 233, 0.562);
+    background: #d7ecffd0;
     z-index: -1; /*this ensures that the nav always has priority */
+    /* animation-name: expand-fade-in;
+    animation-duration: 1.0s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both; */
 }
+/* @keyframes expand-fade-in{
+    from {opacity: 0%; width: 0%;}
+    to{opacity: 100%; width: 100%;}
+} */
+/* h3,p{
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+@keyframes fade-in{
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+} */

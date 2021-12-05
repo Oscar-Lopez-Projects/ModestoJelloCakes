@@ -4,14 +4,17 @@ import Menu from './Menu';
 import NavBar from './NavBar';
 
 const Gallery = () =>{
+    
     return(
         <div>
             <NavBar />
-            <div className="test">
-            <div className="box-gallery-name-div"> Modesto Jello Cakes Gallery </div>
+            <div class="separator">
+                <div class="line"></div>
+                    <h2 style={{color:"#14546A"}}>MODESTO JELLO CAKES GALLERY</h2>
+            <div class="line"></div>
             </div>
             <Menu />
-            <Footer />
+            <Footer />     
         </div>
     )
 }

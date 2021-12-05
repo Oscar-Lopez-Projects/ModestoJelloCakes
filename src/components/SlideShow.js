@@ -9,7 +9,7 @@ import photo3 from '../../src/MyPost1.png';
 const Slide = (props) =>{
   return(
      <Carousel className="main-slide-div" fade={true} pause={false} variant="dark">
-  <Carousel.Item interval={5000}>
+  <Carousel.Item interval={2000}>
     <img
      className="slideshow"
       src={Photo1}
@@ -20,7 +20,7 @@ const Slide = (props) =>{
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item interval={5000}>
+  <Carousel.Item interval={2000}>
     <img
      className="slideshow"
       src={Photo2}
@@ -31,7 +31,7 @@ const Slide = (props) =>{
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item interval={5000}>
+  <Carousel.Item interval={2000}>
     <img
       className="slideshow"
       src={photo3}

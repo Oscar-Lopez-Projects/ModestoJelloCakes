@@ -1,0 +1,23 @@
+.main-login-box{
+    height: 93vh;
+    background: #d7ecffd0;
+}
+.box-of-login{
+    background:  #3c72a3;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid black;
+    border-radius: 25px;
+    left: 0;
+    width: 600px;
+    height: 450px;
+    padding: 20px;
+}
+.forgot-pw{
+    width: 490px;
+    margin: 0 auto;
+    text-align: end;
+}
