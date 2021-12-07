@@ -4,7 +4,8 @@
    
 }
 .main-slide-div{
-    background: #d7ecffd0;
+    /* background: #d7ecffd0; */
+    /* background: linear-gradient(rgba(255, 192, 203, 0.479),rgba(0, 0, 255, 0.568)); */
     z-index: -1; /*this ensures that the nav always has priority */
     /* animation-name: expand-fade-in;
     animation-duration: 1.0s;

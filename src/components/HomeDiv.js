@@ -17,9 +17,8 @@ const HomeDiv = ()=>{
         </div>
       </div>
       <div class="content">
-        <div class="icon iconCodepen"></div>
-        <h2>Develop</h2>
-        <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+      
+        <h2>GO TO GALLERY</h2>
       </div>
     </li>
     <li>
@@ -30,9 +29,10 @@ const HomeDiv = ()=>{
         </div>
       </div>
       <div class="content">
-        <div class="icon iconSocial"></div>
-        <h2>Engage</h2>
-        <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+       
+        <h2>BROWSE YOUR DESIRE CAKE AND PRESS DETAILS</h2>
+        
+        
       </div>
     </li>
     <li>
@@ -43,9 +43,9 @@ const HomeDiv = ()=>{
         </div>
       </div>
       <div class="content">
-        <div class="icon iconAirplane"></div>
-        <h2>Deliver</h2>
-        <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+        
+        <h2>WRITE DOWN OR COPY SHAPE NUMBER</h2>
+        
       </div>
     </li>
     <li>
@@ -56,9 +56,9 @@ const HomeDiv = ()=>{
         </div>
       </div>
       <div class="content">
-        <div class="icon iconMap"></div>
-        <h2>Plan</h2>
-        <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+        
+        <h2>GO TO PLACE AN ORDER</h2>
+        
       </div>
     </li>
     <li>
@@ -69,9 +69,9 @@ const HomeDiv = ()=>{
         </div>
       </div>
       <div class="content">
-        <div class="icon iconBulb"></div>
-        <h2>Educate</h2>
-        <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+        
+        <h2>FILL OUT INFORMATION</h2>
+       
       </div>
     </li>
     <li>
@@ -82,9 +82,9 @@ const HomeDiv = ()=>{
       </div>
         </div>
       <div class="content">
-        <div class="icon iconPeace"></div>
-        <h2>Succeed</h2>
-        <p>Sagittis, audantium sem eveniet lacus pede porttitor aenean.</p>
+        
+        <h2>SUBMIT AND WE WILL REACH OUT.</h2>
+        
       </div>
     </li> 
   </ul>

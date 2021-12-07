@@ -24,8 +24,8 @@
     li {
       position: relative;
       width: 100%;
-      max-width: 25em;
-      background: rgba(118, 238, 232, 0.068);
+      width: 500px;
+      // background: linear-gradient(#3c72a3,pink);
       border-radius: 0.5em;
       padding: 0.5em;
       z-index: 1;
@@ -43,22 +43,22 @@
         width: 0.9em;
         text-align: center;
         &.fontColor1 {
-          color: var(--blue);
+          color: #3c72a3;
         }
         &.fontColor2 {
-          color: var(--green);
+          color: #3c72a3;
         }
         &.fontColor3 {
-          color: var(--purple);
+          color: #3c72a3;
         }
         &.fontColor4 {
-          color: var(--gold);
+          color: #3c72a3;
         }
         &.fontColor5 {
-          color: var(--red);
+          color: #3c72a3;
         }
         &.fontColor6 {
-          color: var(--orange);
+          color: #3c72a3;
         }
       }
       .coverWrap {
@@ -70,7 +70,7 @@
         top: -1em;
         .numberCover {
           position: absolute;
-          background: rgba(118, 238, 232, 0.952);
+          // background: linear-gradient(#3c72a3,pink);
           width: 18em;
           height: 6em;
           border-radius: 50% 50% 0 0;
@@ -134,11 +134,12 @@
   // .hometest{
   //   background: red;
   // }
+  
   .how-to-title{
-    width: 100vw;
-   background-color: #000000;
-background-image: linear-gradient(to bottom, #000000 0%, #04619f 74%);
-    color: white;
+    color: black;
+  }
+  .how-to-title:hover{
+    color:pink;
   }
   .icon {
     position: absolute;
