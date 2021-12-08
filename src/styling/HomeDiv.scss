@@ -79,7 +79,7 @@
   
           &::before {
             position: absolute;
-            content: "";
+            // content: "";
             bottom: 5px;
             left: 4em;
             right: 4em;
@@ -91,7 +91,7 @@
           &::after {
             position: absolute;
             bottom: 0;
-            content: "";
+            // content: "";
             left: -10%;
             width: 120%;
             height: 150%;
@@ -105,6 +105,7 @@
           }
         }
       }
+      /*new  debug is to get rid of the bullet points */
       /*work on changing the shade to pink to make it make with the color scheme and explore on slideshow background color */
       .content {
         margin: 8em 3em 1em 7em;
