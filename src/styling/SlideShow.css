@@ -1,32 +1,21 @@
 .slideshow{
     height: 93vh;
+    width: 70vw;
     font:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    
+    /* box-shadow: 0 0 40px rgba(0,0,0,0.3); */
+    /* box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.3); */
     /* border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px; */
 }
-.main-slide-div{
-    background: #d7ecff70;
-    
-    /* background: linear-gradient(rgba(255, 192, 203, 0.479),rgba(0, 0, 255, 0.568)); */
-    z-index: -1; /*this ensures that the nav always has priority */
-    /* animation-name: expand-fade-in;
-    animation-duration: 1.0s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: both; */
-}
-/* @keyframes expand-fade-in{
-    from {opacity: 0%; width: 0%;}
-    to{opacity: 100%; width: 100%;}
-} */
-/* h3,p{
-    animation-name: fade-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: both;
-    animation-delay: 1s;
-}
-@keyframes fade-in{
-    from{opacity: 0%;}
-    to{opacity: 100%;}
-} */
+
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    display:none;
+  }
+  .carousel-indicators li { visibility: hidden; }
+  .nana{
+    background-image: url(../valuepic.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+  }
