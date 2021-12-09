@@ -83,7 +83,7 @@ const HomeDiv = ()=>{
         </div>
       <div class="content">
         
-        <h2>SUBMIT AND WE WILL REACH OUT.</h2>
+        <h2>SUBMIT AND WE WILL REACH OUT</h2>
         
       </div>
     </li> 

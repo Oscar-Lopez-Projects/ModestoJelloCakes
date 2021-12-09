@@ -1,10 +1,13 @@
 .slideshow{
     height: 93vh;
     font:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-   
+    
+    /* border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
 }
 .main-slide-div{
-    /* background: #d7ecffd0; */
+    background: #d7ecff70;
+    
     /* background: linear-gradient(rgba(255, 192, 203, 0.479),rgba(0, 0, 255, 0.568)); */
     z-index: -1; /*this ensures that the nav always has priority */
     /* animation-name: expand-fade-in;

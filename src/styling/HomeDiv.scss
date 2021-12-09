@@ -21,8 +21,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: 60vh;
     li {
       position: relative;
+      list-style-type: none;
+      background: white;
+      margin-top: 40px;
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 25px;
       width: 100%;
       width: 500px;
       // background: linear-gradient(#3c72a3,pink);
@@ -37,7 +44,7 @@
       }
       
       .number {
-        font-family: "maven pro", sans-serif;
+        font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
         font-size: 10em;
         font-weight: 900;
         width: 0.9em;
@@ -110,8 +117,9 @@
       /*new  debug is to get rid of the bullet points */
       /*work on changing the shade to pink to make it make with the color scheme and explore on slideshow background color */
       .content {
-        margin: 8em 3em 1em 7em;
-        position: relative;
+        margin: 8em 3em 1em 7.5em;
+        text-decoration: underline pink;
+        position: relative; 
         h2 {
           font-size: 1.7em;
           font-weight: 500;
@@ -135,16 +143,25 @@
   /////////////////////////////////////
   // Fontawesome Icons
   // List: http://astronautweb.co/snippet/font-awesome/
-  // .hometest{
-  //   background: red;
-  // }
+  .hometest{
+    background-image: url(../valuepic.jpg);
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  }
+
   
   .how-to-title{
-    color: black;
+    margin-top: 5em;
+    width: 700px;
+    border-radius: 0.1em;
+    background: white;
+    margin: 0 auto;
+    color:#3c72a3;
+    font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: bold;
   }
-  .how-to-title:hover{
-    color:pink;
-  }
+  
   .icon {
     position: absolute;
     font-size: 2rem;
@@ -154,7 +171,7 @@
     transform: translatex(-50%);
     &:before {
       color: #666;
-      font-family: FontAwesome;
+      font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
       font-style: normal;
       font-weight: normal;
       text-decoration: inherit;
