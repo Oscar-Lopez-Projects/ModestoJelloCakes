@@ -7,18 +7,17 @@ const WhyOnline = ()=>{
         <div className="whywhy">
             <div className='loyalty-program'>
                 <div>
-                <h1>Modesto Jello Cakes just got even better!</h1>
-                    <p>New! Members get 5% back in ExtraBucks Rewards® even faster.* Enjoy a new birthday treat, too.</p>
-                    <p>To join ExtraCare, start by creating an account.</p>
+                <h1 className='rewards-title'>Modesto Jello Cakes just got even better!</h1>
+                    <p className='para-rewards'>New! Members get 5% back in ExtraBucks Rewards® even faster.* Enjoy a new birthday treat, too.</p>
+                    <p className='para-rewards-bold'>To join ExtraCare, start by creating an account.</p>
                 </div>
                    
-                <div>
-                    <div>
-                        <button>Create an account</button>
-                    </div>
-                    <div>
-                        <button>Sign in</button>
-                    </div>
+                <div className='rewards-buttons'>
+        
+                        <button className='reward-button'>Create an account</button>
+                    
+                        <button className='reward-button'>Sign in</button>
+                    
                 </div>
             </div>
             <div className='five-percent-image'>
