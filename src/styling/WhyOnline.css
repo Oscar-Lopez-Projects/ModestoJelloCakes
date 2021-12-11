@@ -1,3 +1,15 @@
 .whywhy{
-    background:red;
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
+    align-items: center;
+}
+.loyalty-program{
+    width: 50%;
+}
+.five-percent-image{
+    width: 50%;
+}
+.five-img{
+    width: 100%;
 }

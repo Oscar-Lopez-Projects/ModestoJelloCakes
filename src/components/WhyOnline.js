@@ -1,11 +1,29 @@
 import React from 'react';
 import '../styling/WhyOnline.css';
-
+import fiveimage from '../final5back.jpg';
 
 const WhyOnline = ()=>{
     return(
         <div className="whywhy">
-            <h1>Modesto Jello Cakes</h1>
+            <div className='loyalty-program'>
+                <div>
+                <h1>Modesto Jello Cakes just got even better!</h1>
+                    <p>New! Members get 5% back in ExtraBucks Rewards® even faster.* Enjoy a new birthday treat, too.</p>
+                    <p>To join ExtraCare, start by creating an account.</p>
+                </div>
+                   
+                <div>
+                    <div>
+                        <button>Create an account</button>
+                    </div>
+                    <div>
+                        <button>Sign in</button>
+                    </div>
+                </div>
+            </div>
+            <div className='five-percent-image'>
+                <img src={fiveimage} className='five-img' alt="5-percent-image"/>
+            </div>
         </div>
     )
 }
