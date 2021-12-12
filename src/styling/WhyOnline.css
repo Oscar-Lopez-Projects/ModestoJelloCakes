@@ -3,6 +3,9 @@
     width: 70vw;
     margin: 0 auto;
     align-items: center;
+    border-bottom: 3px solid rgb(29, 99, 99);
+    margin-bottom: 20px;
+    
 }
 .loyalty-program{
     width: 50%;
@@ -21,6 +24,7 @@
 }
 .rewards-buttons{
     display: flex;
+    padding:10px
 }
 .reward-button{
     margin-right: 10px;
@@ -84,3 +88,20 @@
 .para-rewards-bold{
     font-weight: bold;
 }
+.benefits-page{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-divs{
+    height: 200px;
+    width: 200px;
+}
+.benefits-icons{
+    width: 100%;
+    height: 100%;
+}
+

@@ -1,12 +1,14 @@
 import React from 'react';
 import '../styling/WhyOnline.css';
 import fiveimage from '../final5back.jpg';
+import Benefits from './Benefits';
 
 const WhyOnline = ()=>{
     return(
+        <>
         <div className="whywhy">
             <div className='loyalty-program'>
-                <div>
+                <div style={{padding:"10px"}}>
                 <h1 className='rewards-title'>Modesto Jello Cakes just got even better!</h1>
                     <p className='para-rewards'>New! Members get 5% back in ExtraBucks Rewards® even faster.* Enjoy a new birthday treat, too.</p>
                     <p className='para-rewards-bold'>To join ExtraCare, start by creating an account.</p>
@@ -24,6 +26,8 @@ const WhyOnline = ()=>{
                 <img src={fiveimage} className='five-img' alt="5-percent-image"/>
             </div>
         </div>
+        <Benefits />
+        </>
     )
 }
 export default WhyOnline;
