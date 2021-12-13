@@ -7,15 +7,12 @@
     /* border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px; */
 }
-
+.slide-box-div{
+  /* border-bottom: 2px solid black; */
+}
 
 
 .carousel-control-next-icon, .carousel-control-prev-icon{
     display:none;
   }
   .carousel-indicators li { visibility: hidden; }
-  .nana{
-    background-image: url(../valuepic.jpg);
-    background-size: cover;
-    background-repeat: repeat;
-  }

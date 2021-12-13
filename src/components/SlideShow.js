@@ -9,7 +9,7 @@ import HomeDiv from './HomeDiv';
 
 const Slide = () =>{
   return(
-    <div className="nana">
+    <div className="slide-box-div">
      <Carousel fade={true}  variant="dark" indicators={null} >
   <Carousel.Item interval={2100}>
     <img
@@ -45,7 +45,6 @@ const Slide = () =>{
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-<HomeDiv />
 </div>
   );
 };

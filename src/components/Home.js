@@ -3,7 +3,6 @@ import Footer from "./Footer";
 import HomeDiv from "./HomeDiv";
 import NavBar from "./NavBar";
 import OrderExample from "./OrderExample";
-import Process from "./Process";
 import SlideShow from "./SlideShow";
 import WhyOnline from "./WhyOnline";
 const Home = () =>{
@@ -21,6 +20,7 @@ const Home = () =>{
             <div>
             <NavBar />
             <SlideShow />
+            <HomeDiv />
             <WhyOnline />
             <Footer />
             </div>
