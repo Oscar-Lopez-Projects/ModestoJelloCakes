@@ -95,7 +95,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border-bottom: 3px solid black;
+    /* border-bottom: 3px solid black; */
 }
 .icon-divs{
     height: 200px;

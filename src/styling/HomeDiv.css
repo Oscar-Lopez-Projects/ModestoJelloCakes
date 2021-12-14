@@ -1,9 +1,9 @@
 .process-home-div{
   width: 70vw;
-
+  
   margin: 0 auto;
   display: flex;
-  justify-content:space-evenly;
+  justify-content:space-between;
   align-items: center;
  
 }
@@ -29,4 +29,18 @@
   font-weight: bold;
   width: 150px;
   margin-top: 15px;
+}
+.separatorr{
+  display: flex;
+  width: 70vw;
+  margin:0 auto;
+  padding: 15px 0px 15px 0px;
+  align-items: center;
+}
+.separatorr h2{
+  padding: 0 2rem; 
+}
+.separatorr .linee{
+  flex: 1;
+  border:1px solid black;
 }
