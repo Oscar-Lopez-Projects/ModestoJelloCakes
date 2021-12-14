@@ -90,11 +90,12 @@
 }
 .benefits-page{
     padding-top: 30px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
     width: 70vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    border-bottom: 3px solid black;
 }
 .icon-divs{
     height: 200px;

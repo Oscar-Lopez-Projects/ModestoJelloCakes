@@ -11,7 +11,7 @@ import stepsix from '../stepsix.png';
 const HomeDiv = ()=>{
     return(
       <>
-      <h1 style={{textAlign:"center", marginTop:"50px", marginBottom:"50px", margin:"0 auto", width:"70vw", color:"#3c72a3",fontWeight:"bold"}}>HOW TO PLACE AN ORDER ONLINE</h1>
+      <h1 style={{textAlign:"center", marginTop:"30px", marginBottom:"30px", margin:"0 auto", width:"70vw", color:"#3c72a3",fontWeight:"bold"}}>HOW TO PLACE AN ORDER ONLINE</h1>
         <div className='process-home-div'>
           <div className='steps-to-order'>
             <img className='steps-design-adjustment' src={stepone} />

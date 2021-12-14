@@ -20,8 +20,8 @@ const Home = () =>{
             <div>
             <NavBar />
             <SlideShow />
-            <HomeDiv />
             <WhyOnline />
+            <HomeDiv />
             <Footer />
             </div>
     
