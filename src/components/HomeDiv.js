@@ -14,7 +14,7 @@ const HomeDiv = ()=>{
       
       <div class="separatorr">
                 <div class="linee"></div>
-                    <h2 style={{color:"#14546A"}}>HOW TO PLACE AN ORDER ONLINE</h2>
+                    <h2 style={{color:"#3c72a3",fontWeight:"bold"}}>HOW TO PLACE AN ORDER ONLINE</h2>
             <div class="linee"></div>
             </div>
       
