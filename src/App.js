@@ -11,7 +11,7 @@ import Order from './components/Order';
 
 
 function App() {
-  
+  /*start preparring for state management*/
 
   return (
     <div className="App">
