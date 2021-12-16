@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styling/WhyOnline.css';
-import fiveimage from '../final5back.jpg';
+import fiveimage from '../final5back14.png';
 import Benefits from './Benefits';
 
 const WhyOnline = ()=>{

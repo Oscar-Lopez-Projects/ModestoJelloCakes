@@ -1,0 +1,18 @@
+.slide-div{
+    width: 72vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.slide-boxes{
+    padding: 50px;
+}
+.box-images{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.slick-prev:before, .slick-next:before{
+    color:#03529c;
+    font-size: 40px;
+}
