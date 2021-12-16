@@ -11,6 +11,7 @@
     width: 100%;
     border: 2px solid black;
     border-radius: 25px;
+    box-shadow: 8px 8px 8px 4px rgba(0,0,0,0.3);
 }
 .slick-prev:before, .slick-next:before{
     color:#03529c;
