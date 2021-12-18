@@ -1,8 +1,8 @@
 .contact-outer-div{
     background: rgba(118, 238, 232, 0.068);
-    margin-bottom: 20px;
+    padding-bottom: 40px;
     margin: 0 auto;
-    height: 93vh;
+    min-height: 92vh;
 }
 .top-div{
     display: flex;

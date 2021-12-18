@@ -9,11 +9,11 @@
 } */
 
 .center-order-box{
-    padding:0;
-    height: 93vh;
+    min-height: 92vh;
+    padding: 30px;
     display: flex;
     background-image: url("../darren-nunis-EEGQ5T62iTI-unsplash.jpg");
-     background-size: 100% ;/* or contain depending on what you want */
+    background-size: 100% ;/* or contain depending on what you want */
   background-position: center;
   background-repeat: no-repeat;
   text-align:center;
@@ -23,8 +23,9 @@
 .Order-box{
     background: rgba(24, 76, 136, 0.356);
     width: 810px;
+    min-height: 500px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #3c72a3;
     border-radius: 25px;
 }

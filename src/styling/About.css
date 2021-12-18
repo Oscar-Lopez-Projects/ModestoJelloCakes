@@ -1,27 +1,32 @@
 
 .top-div-1{
-    height: 40.5vh;
     width: 100%;
+    min-height: 46vh;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content:space-evenly;
     background: rgba(118, 238, 232, 0.068);
 }
 
 .left-about{
-    width: 35%;
+    width: 500px;
     font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     text-align: left;
-    margin-right: 50px;
+    
 }
+.featured-button{
+  width: 500px;
+}
+
 .logo-img{
-    width: 35%;
+    width: 500px;
     display: flex;
     justify-content: center;
 }
 .logo{
-    width: 61%;
+    width: 70%;
 }
+
 .section-button, input.form-button, input.gform_button {
     background: transparent;
     border: 2px solid rgb(248, 172, 185);
@@ -29,7 +34,7 @@
     padding: 18px 30px;
     display: inline-block;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 10px;
     letter-spacing: 1px;
     color: white;
     font-weight: 700;
@@ -57,8 +62,10 @@ a {
     color:white;
 }
 .next-div-2{
-    height: 52.5vh;
+    min-height: 46vh;
     width: 100%;
+    vertical-align: middle;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -72,22 +79,20 @@ a {
 /* testing animation pics css */
 
 .moving-top{
-    text-align: center;
+    width: 100vw;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
-    overflow: hidden;
-    margin-bottom: 20px;
-    width: 99%;
+    margin: 0 auto; 
 }
 .moving-bottom{
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 99%;
 }
 .piz{
-    width: 250px;
+    width: 200px;
     margin: 10px;
     border-radius: 25px;
 }
@@ -165,7 +170,7 @@ div {
 
 .description-div{
   width: 600px;
-  /* background-color: blue; */
+  background-color: blue;
   margin-right: 10px;
   padding: 10px;
   display: flex;
@@ -205,17 +210,18 @@ div {
   transform: rotate(-45deg);
 }
 .pic-adjustment1{
-  margin-top: -365px;
-  margin-left: 200px;
+  /* margin-top: -365px;
+  margin-left: 200px; */
   z-index: -1;
 }
 .image-div-animations{
   text-align: center;
+  height: 100%;
+  background: red;
 }
 #value{
   background-image: url(../valuepic.jpg);
-  height:100vh;
-  padding-top: 80px;
+  height:92vh;
   display: flex;
   justify-content: center;
   align-items: center;

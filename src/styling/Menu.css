@@ -6,9 +6,9 @@
     background: #d7ecffd0;
 }
 .front,.back{
-    width:350px;
+    width:300px;
     margin: 0px 40px 40px 40px;
-    height: 420px;
+    height: 400px;
     /* background: red; */
     border: 1px solid #65A9C0;
     border-radius: 10px;

@@ -16,9 +16,12 @@ const NavLinks = styled.p`
 const NavBar = ()=>{
     return(
         <div className="nav-bar">
-            <div>
+            <div className='logo-resize'>
                 <Link to="/">
-                 <img height="65px" src={mainLogo} alt="main-logo" />
+                    
+                    <img width="90px"  src={mainLogo} alt="main-logo" />
+                    
+                 
                  </Link>
             </div>
             <div className="navlinks">

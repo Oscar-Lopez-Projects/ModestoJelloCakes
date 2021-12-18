@@ -23,13 +23,13 @@ const About = ()=>{
         <>
         
         { loading? <div className="loader-center"> <Loader type="BallTriangle" color="#3c72a3" height={80} width={80} /> </div> :
-        <div>
+        <>
             <NavBar />
                 <div className="top-div-1">
                     <div className="left-about">
-                        <h1>ABOUT</h1>
-                        <div>
-                            <p style={{fontSize:"20px", textAlign:"justify"}}>I've provided an answer,
+                        <div className="about-para-div">
+                        <h2>ABOUT</h2>
+                            <p style={{fontSize:"15px"}}>I've provided an answer,
                                  but FWIW, as a programmer myself,
                                   I don't know if I would call that
                                    code inert or a dummy series.
@@ -41,8 +41,7 @@ const About = ()=>{
                                        some function, even if the 
                                        user doesn't see i
                             </p>
-                        </div>
-                        <div className="featured-button">
+                            <div className="featured-button">
                             <span className="featured-button section-button-wrapper">
                                 <a class="about-featured-button section-button" href="#value">
                                     OUR VALUE
@@ -59,6 +58,8 @@ const About = ()=>{
                                 </a>
                             </span>
                         </div>
+                        </div>
+                
                     </div>
                     <div className="logo-img">
                             <img className="logo" src={Logo} alt="Modesto Jello Cakes Logo"/>
@@ -66,10 +67,11 @@ const About = ()=>{
                 </div>
                 <MovingPics />
                 <Value />
+                {/*
                 <Process />
                 <Team />
-            <Footer />
-            </div>
+            <Footer /> */}
+        </>
         }
         </>
     )
