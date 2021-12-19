@@ -67,10 +67,9 @@ const About = ()=>{
                 </div>
                 <MovingPics />
                 <Value />
-                {/*
                 <Process />
                 <Team />
-            <Footer /> */}
+                <Footer />
         </>
         }
         </>

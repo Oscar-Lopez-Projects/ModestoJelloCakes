@@ -4,7 +4,7 @@ import photo3 from '../../src/MyPost1.png';
 
 const Value = ()=>{
     return(
-        <div id="value">
+        <div className="value">
             <div className="description-div">
                 <div className="headers-div">
                     <h1>UNRIVALED VALUE</h1>
@@ -13,17 +13,7 @@ const Value = ()=>{
                 </div>
             </div>
             <div className="image-div-animations">
-
-                    <div className="top-pics">
-                        <img className="pic-adjustment" src={Photo2} alt="not working"/>
-                    </div>
-
-                    <div className="plain-border-lines">
-
-                    </div>
-                    <div className="bottom-pics">
                         <img className="pic-adjustment1" src={Photo2} alt="not working"/>
-                    </div>
             </div>
         </div>
     )

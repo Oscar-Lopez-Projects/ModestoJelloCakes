@@ -2,10 +2,7 @@ import React from 'react'
 
 const Process = ()=>{
     return(
-        <div id="process">
-
-            <div className="main-process-div">
-                <h1 className="process-title">HOW IT WORKS </h1>
+            <div id="process" className="main-process-div">
             <div className="steps-3">
                 <div className="steps">
                     <h2> TELL US ABOUT YOUR EVENT</h2>
@@ -52,7 +49,6 @@ const Process = ()=>{
                 </div>
             </div>
             </div>
-        </div>
     )
 }
 export default Process;

@@ -1,7 +1,7 @@
 
 .top-div-1{
     width: 100%;
-    min-height: 46vh;
+    min-height: 40vh;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
@@ -62,7 +62,7 @@ a {
     color:white;
 }
 .next-div-2{
-    min-height: 46vh;
+    min-height: 54vh;
     width: 100%;
     vertical-align: middle;
 
@@ -83,7 +83,8 @@ a {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    margin: 0 auto; 
+    margin: 0 auto;
+    padding-bottom: 10px; 
 }
 .moving-bottom{
     /* text-align: center; */
@@ -92,7 +93,7 @@ a {
     margin: 0 auto;
 }
 .piz{
-    width: 200px;
+    width: 220px;
     margin: 10px;
     border-radius: 25px;
 }
@@ -170,7 +171,6 @@ div {
 
 .description-div{
   width: 600px;
-  background-color: blue;
   margin-right: 10px;
   padding: 10px;
   display: flex;
@@ -189,49 +189,25 @@ div {
   display: flex;
   flex-wrap: nowrap;
 }
-
-.plain-border-lines{
-  border: 3px solid #3c72a3;
-  width: 370px;
-  height: 370px;
-  opacity: .6;
-  transform-origin: top right;
-  transform: rotate(225deg);
-  margin-top: -50px;
-  margin-left: -150px;
-  position: relative;
-  z-index: 1;
-}
-.pic-adjustment,.pic-adjustment1{
-  width: 370px;
-  height: 370px;
-}
-.pic-adjustment, .pic-adjustment1{
-  transform: rotate(-45deg);
+.image-div-animations{
+  width: 600px;
+  padding: 10px;
 }
 .pic-adjustment1{
-  /* margin-top: -365px;
-  margin-left: 200px; */
-  z-index: -1;
+  width: 100%;
+  border-radius: 20px;
 }
-.image-div-animations{
-  text-align: center;
-  height: 100%;
-  background: red;
-}
-#value{
+.value{
   background-image: url(../valuepic.jpg);
-  height:92vh;
+  min-height:93vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-transform: translate3d(0,0,1px); 
-  -webkit-backface-visibility: hidden;
+  z-index: -1;
 }
 .steps-3{
   display: flex;
   justify-content: center;
-  padding-top: 25px;
 }
 .last-2-steps{
   display: flex;
@@ -240,6 +216,7 @@ div {
 
 .steps{
   width: 350px;
+  height: 350px;
   text-align: left;
   border: 1px solid #3c72a3;
   border-radius: 25px;
@@ -249,17 +226,17 @@ div {
   box-shadow: 8px 8px 8px 4px rgba(0,0,0,0.3);
 }
 .para-process{
-  text-align: justify;
-  font-size: 18px;
-  margin-top: 20px;
+  font-size: 16px;
+}
+.process-title{
+  padding-top: 10px;
+  font-size: 32px;
 }
 .main-process-div{
-  height: 100vh;
-  padding-top: 60px;
   background-image: url("../processpic.jpg");
   background-size: cover;
-  -webkit-transform: translate3d(0,0,1px); 
-  -webkit-backface-visibility: hidden;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 .texs{
   width: 400px;
