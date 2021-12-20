@@ -4,7 +4,7 @@ import photo3 from '../../src/MyPost1.png';
 
 const Value = ()=>{
     return(
-        <div className="value">
+        <div id="value" className="value">
             <div className="description-div">
                 <div className="headers-div">
                     <h1>UNRIVALED VALUE</h1>

@@ -1,5 +1,6 @@
 .process-home-div{
-  width: 70vw;
+  width: 75vw;
+  background: red;
   padding-bottom: 50px;
   margin: 0 auto;
   display: flex;
@@ -8,7 +9,8 @@
  
 }
 .steps-to-order{
-  width: 150px;
+  width: 11.6vw;
+  
   height:150px;
   padding: 10px;
  
@@ -42,4 +44,11 @@
 .separatorr .linee{
   flex: 1;
   border:1px solid black;
+}
+
+/*media Queries min: 922 max 1199.98 */
+@media (min-device-width: 992px) and (max-device-width:1199.98px){
+  .steps-to-order{
+    background: orange;
+  }
 }

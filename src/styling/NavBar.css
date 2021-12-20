@@ -7,14 +7,16 @@
     border-radius: 0;
     z-index: 99;
     /* border-color: transparent; */
-    width: 100vw;
+    width: 100%;
     min-height:7vh;
     justify-content: space-evenly;
-    align-items: baseline;
     /* background:rgba(250, 248, 248, 0.897); */
     background: #3c72a3;
- 
+    align-items: center;
     font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.navlinks{
+    padding-top: 10px;
 }
 .link{
     text-decoration: none;
@@ -24,11 +26,6 @@
     color: pink;
 }
 
-.logo-resize{
-    height: 7vh;
-    top: 0;
-    position: sticky;
-}
 /* 
 testing if git working
 */
