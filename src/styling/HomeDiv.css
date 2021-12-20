@@ -1,6 +1,5 @@
 .process-home-div{
-  width: 75vw;
-  background: red;
+  width: 85vw;
   padding-bottom: 50px;
   margin: 0 auto;
   display: flex;
@@ -10,7 +9,6 @@
 }
 .steps-to-order{
   width: 11.6vw;
-  
   height:150px;
   padding: 10px;
  
@@ -28,12 +26,12 @@
 }
 .process-para-bold{
   font-weight: bold;
-  width: 150px;
+  width:100%;
   margin-top: 15px;
 }
 .separatorr{
   display: flex;
-  width: 70vw;
+  width: 85vw;
   margin:0 auto;
   padding: 15px 0px 15px 0px;
   align-items: center;

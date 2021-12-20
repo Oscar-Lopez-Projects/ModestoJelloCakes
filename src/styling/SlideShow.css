@@ -1,5 +1,5 @@
 .slide-div{
-    width: 72vw;
+    width: 85vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -15,5 +15,5 @@
 }
 .slick-prev:before, .slick-next:before{
     color:#03529c;
-    font-size: 40px;
+    font-size: 25px;
 }

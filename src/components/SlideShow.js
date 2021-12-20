@@ -9,7 +9,7 @@ import photo3 from '../../src/MyPost1.png';
 const SlideShow = ()=>{
     const settings = {
         dots: false,
-        arrows:true,
+        
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
