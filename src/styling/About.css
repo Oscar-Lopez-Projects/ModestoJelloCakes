@@ -81,19 +81,19 @@ a {
 .moving-top{
     width: 100vw;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
     justify-content: center;
     margin: 0 auto;
     padding-bottom: 10px; 
 }
 .moving-bottom{
-    /* text-align: center; */
+    text-align: center;
     display: flex;
     justify-content: center;
     margin: 0 auto;
 }
 .piz{
-    width: 195px;
+    width: 165px;
     margin: 10px;
     border-radius: 25px;
 }
