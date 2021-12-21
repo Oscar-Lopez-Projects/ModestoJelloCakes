@@ -19,6 +19,7 @@ const HomeDiv = ()=>{
             </div>
       
         <div className='process-home-div'>
+        
           <div className='steps-to-order'>
             <img className='steps-design-adjustment' src={stepone} />
             <p className='process-para-bold'> GO TO THE GALLERY</p>
@@ -28,7 +29,7 @@ const HomeDiv = ()=>{
           </div>
           <div className='steps-to-order'>
             <img className='steps-design-adjustment' src={steptwo} />
-            <p className='process-para-bold'>BROWSE YOUR DESIRE CAKE SHAPE & PRESS DETAILS</p>
+            <p className='process-para-bold'>PICK DESIRE CAKE SHAPE & PRESS DETAILS</p>
           </div>
           <div className='arrow-steps'>
             <img className='pink-arrow' src={rightarrow} />
@@ -61,13 +62,6 @@ const HomeDiv = ()=>{
         
         </div>
         </>
-
-        /*STEP 1: GO TO THE GALLERY.
-STEP 2: BROWSE YOUR DESIRE CAKE SHAPE & PRESS DETAILS
-STEP 3: WRITE DOWN OR COPY SHAPE NUMBER
-STEP 4: GO TO PLACE AN ORDER
-STEP 5: FILL OUT INFORMATION
-STEP 6: SUBMIT AND WE WILL REACH OUT. */
     )
 }
 export default HomeDiv;

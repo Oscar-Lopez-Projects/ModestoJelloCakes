@@ -12,20 +12,18 @@ const Footer = () =>{
         <div className="footer-div">
             <div className="main-footer">
                 <div className="mission-title">
-                    <h1 style={{textAlign:"left"}} >Our Mission:</h1>
+                    <h2 style={{textAlign:"left"}} >Our Mission:</h2>
                     <p style={{textAlign:"left"}}>
                     I've provided an answer, but FWIW, as a programmer myself,
                      I don't know if I would call that code inert or a dummy
-                      series. It sounds useful to me. Dummy code, in my mind,
-                       is code that will never be executed. It has no purpose.
-                     This at least serves some function, even if the user doesn't see it.
+                      series. It sounds useful to me. Dummy code, in my mind.
                     </p>
                 </div>
                 <div className="logo">
-                    <img src={mainLogo} alt="Our Logo"/>
+                    <img className="mjc-main-logo" src={mainLogo} alt="Our Logo"/>
                 </div>
                 <div className="quick-links">
-                    <h1 style={{width:"50%"}}>Quick Links</h1>
+                    <h2 className="quick-link-title">Quick Links</h2>
                     <div className="links">
                         <Link to="/gallery"><div className="link-letter">Gallery</div> </Link>
                         <Link to="/order"><div className="link-letter">Order</div> </Link>

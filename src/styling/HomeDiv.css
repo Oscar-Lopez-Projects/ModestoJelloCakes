@@ -1,5 +1,5 @@
 .process-home-div{
-  width: 85vw;
+  width: 90vw;
   padding-bottom: 50px;
   margin: 0 auto;
   display: flex;
@@ -9,13 +9,14 @@
 }
 .steps-to-order{
   width: 11.6vw;
+ 
+  margin: 0 auto;
   height:150px;
   padding: 10px;
  
 }
 .steps-design-adjustment{
-  width: 50%;
-  height: 50%;
+  width: 60%;
 }
 .arrow-steps{
   height: 55px;
@@ -27,6 +28,7 @@
 .process-para-bold{
   font-weight: bold;
   width:100%;
+
   margin-top: 15px;
 }
 .separatorr{
@@ -44,9 +46,10 @@
   border:1px solid black;
 }
 
-/*media Queries min: 922 max 1199.98 */
+/*media Queries min: 994 max 1199.98 */
 @media (min-device-width: 992px) and (max-device-width:1199.98px){
   .steps-to-order{
-    background: orange;
+   
+    
   }
 }

@@ -254,7 +254,7 @@ div {
   align-items: center;
   background-image: url("../teampic.jpg");
   background-position: center;
-  background-size: cover;
+  background-size:cover;
  z-index: 0;
  position: relative;
  -webkit-transform: translate3d(0,0,1px); 
