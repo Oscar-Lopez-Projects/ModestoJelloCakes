@@ -19,7 +19,7 @@
     align-items: baseline;
 }
 .mission-title{
-    width: 25%;
+    width: 35%;
     
 }
 .quick-links{
@@ -51,18 +51,10 @@
     text-align: center;
     text-decoration: none;
   }
-  @media (min-device-width: 992px) and (max-device-width:1199.98px){
-      .mission-title{
-          width: 35%;
-      }
-     
-      .mjc-main-logo{
-          width: 60%;
-      }
-      .quick-link-title{
-          width: 100%;
-      }
-  }
-  @media (min-device-width:768px) and (max-device-width: 991.98){
+  .mjc-main-logo{
+    width: 50%;
+}
+
+  /* @media (min-device-width:768px) and (max-device-width: 991.98){
       
-  }
+  } */

@@ -22,7 +22,7 @@ const SlideShow = ()=>{
                 slidesToShow: 3,
                 slidesToScroll: 3,
                 infinite: true,
-                dots: true
+                dots: false
               }
             },
             {

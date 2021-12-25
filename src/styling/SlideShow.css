@@ -1,14 +1,16 @@
 .slide-div{
-    width: 85vw;
+    width: 80vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 .slide-boxes{
-    padding: 50px;
+    margin: 0 auto;
+    padding: 20px;
 }
 .box-images{
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
     border: 2px solid black;
     border-radius: 25px;
     box-shadow: 8px 8px 8px 4px rgba(0,0,0,0.3);

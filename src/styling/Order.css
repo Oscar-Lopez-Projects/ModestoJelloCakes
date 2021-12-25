@@ -12,10 +12,7 @@
     min-height: 93vh;
     padding: 30px;
     display: flex;
-    background-image: url("../darren-nunis-EEGQ5T62iTI-unsplash.jpg");
-    background-size: 100% ;/* or contain depending on what you want */
-  background-position: center;
-  background-repeat: no-repeat;
+    
   text-align:center;
     margin: 0 auto;
     align-items: center;

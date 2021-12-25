@@ -1,6 +1,6 @@
 .whywhy{
     display: flex;
-    width: 85vw;
+    width: 80vw;
     margin: 0 auto;
     align-items: center;
     border-bottom: 3px solid black;
@@ -91,7 +91,7 @@
 .benefits-page{
     padding-top: 30px;
     padding-bottom: 100px;
-    width: 85vw;
+    width: 80vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
