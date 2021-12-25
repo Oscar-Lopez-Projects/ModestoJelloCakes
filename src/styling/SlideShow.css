@@ -2,6 +2,8 @@
     width: 80vw;
     margin: 0 auto;
     display: flex;
+    padding-bottom: 50px;
+    padding-top: 50px;
     justify-content: space-between;
 }
 .slide-boxes{
@@ -18,4 +20,18 @@
 .slick-prev:before, .slick-next:before{
     color:#03529c;
     font-size: 25px;
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    .slide-div{
+        padding-top: 0px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .slide-div{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .box-images{
+        width: 100%;
+    }
 }

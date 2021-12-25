@@ -16,8 +16,7 @@ const Footer = () =>{
                     <p style={{textAlign:"left"}}>
                     I've provided an answer, but FWIW, as a programmer myself,
                      I don't know if I would call that code inert or a dummy
-                      series. It sounds useful to me. Dummy code, in my mind,, is code that will never be executed. It has no purpose. This at least serves some function, even if the user doesn't see it.
-                    </p>
+                      series. It sounds useful to me. Dummy code, in my mind </p>
                 </div>
                 <div className="logo">
                     <img className="mjc-main-logo" src={mainLogo} alt="Our Logo"/>

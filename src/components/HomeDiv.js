@@ -38,7 +38,7 @@ const HomeDiv = ()=>{
             <img className='steps-design-adjustment' src={stepthree} />
             <p className='process-para-bold'>WRITE DOWN OR COPY SHAPE NUMBER</p>
           </div>
-          <div className='arrow-steps'>
+          <div className='arrow-steps1'>
             <img className='pink-arrow' src={rightarrow} />
           </div>
           <div className='steps-to-order'>
