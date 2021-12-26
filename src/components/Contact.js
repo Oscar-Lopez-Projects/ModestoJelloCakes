@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import NavBar from "./NavBar";
 import '../styling/Contact.css';
 import ExamplePic from '../MyPost.png';
+import UpdatedNavBar from "./UpdatedNavBar";
 
 const Contact = ()=>{
     const [loading, setLoading]= useState(false);
@@ -17,6 +18,7 @@ const Contact = ()=>{
             { loading? <div> </div> : 
             <div>
             <NavBar />
+            <UpdatedNavBar />
             <div className="contact-outer-div">
                 <div className="top-div">
                     <div className="contact-title">
