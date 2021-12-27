@@ -94,6 +94,7 @@
     width: 80vw;
     margin: 0 auto;
     display: flex;
+    
     justify-content: space-between;
     /* border-bottom: 3px solid black; */
 }
@@ -110,5 +111,24 @@
         width: 150px;
         height: 150px;
     }
+}
+@media (min-width:576px) and (max-width:767.98px){
+    .benefits-page{
+        flex-wrap: wrap;
+        padding-bottom: 0px;
+        background: red;
+    }
+    .icon-info-div{
+        width: 45%;
+        height: 300px;
+        margin: 5px;
+    }
+    .para-rewards-bold{
+        width: 100%;
+    }
+    .icon-divs{
+        margin: 0 auto;
+    }
+
 }
 

@@ -14,7 +14,7 @@ const HomeDiv = ()=>{
       
       <div class="separatorr">
                 <div class="linee"></div>
-                    <h2 style={{color:"#3c72a3",fontWeight:"bold"}}>HOW TO PLACE AN ORDER ONLINE</h2>
+                    <h3 className='separator-title' style={{color:"#3c72a3",fontWeight:"bold"}}>HOW TO PLACE AN ORDER ONLINE</h3>
             <div class="linee"></div>
             </div>
       
@@ -24,35 +24,35 @@ const HomeDiv = ()=>{
             <img className='steps-design-adjustment' src={stepone} />
             <p className='process-para-bold'> GO TO THE GALLERY</p>
           </div>
-          <div className='arrow-steps'>
+          <div className='arrow-steps1'>
             <img className='pink-arrow' src={rightarrow} />
           </div>
           <div className='steps-to-order'>
             <img className='steps-design-adjustment' src={steptwo} />
             <p className='process-para-bold'>PICK DESIRE CAKE SHAPE & PRESS DETAILS</p>
           </div>
-          <div className='arrow-steps'>
+          <div className='arrow-steps2'>
             <img className='pink-arrow' src={rightarrow} />
           </div>
           <div className='steps-to-order'>
             <img className='steps-design-adjustment' src={stepthree} />
             <p className='process-para-bold'>WRITE DOWN OR COPY SHAPE NUMBER</p>
           </div>
-          <div className='arrow-steps1'>
+          <div className='arrow-steps3'>
             <img className='pink-arrow' src={rightarrow} />
           </div>
           <div className='steps-to-order'>
             <img className='steps-design-adjustment' src={stepfour} />
             <p className='process-para-bold'>GO TO PLACE AN ORDER</p>
           </div>
-          <div className='arrow-steps'>
+          <div className='arrow-steps4'>
             <img className='pink-arrow' src={rightarrow} />
           </div>
           <div className='steps-to-order'>
             <img className='steps-design-adjustment' src={stepfive} />
             <p className='process-para-bold'>FILL OUT INFORMATION</p>
           </div>
-          <div className='arrow-steps'>
+          <div className='arrow-steps5'>
             <img className='pink-arrow' src={rightarrow} />
           </div>
           <div className='steps-to-order'>

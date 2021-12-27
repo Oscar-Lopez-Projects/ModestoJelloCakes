@@ -17,7 +17,7 @@
 .steps-design-adjustment{
   width: 60%;
 }
-.arrow-steps,.arrow-steps1{
+.arrow-steps1,.arrow-steps2, .arrow-steps3, .arrow-steps4, .arrow-steps5{
   height: 55px;
   width: 55px;
 }
@@ -62,4 +62,26 @@
       width: 45%;
     }
 }
+@media (min-width:576px) and (max-width:767.98px){
+  .process-home-div{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+  }
+  .arrow-steps2, .arrow-steps4{
+    display: none;
+  }
+  .steps-to-order{
+    width: 25vw;
+    height: 200px;
+  }
+  .separatorr{
+    width: 85vw;
+  }
+  .separator-title{
+    padding: 5px;
+  }
+  
 
+}

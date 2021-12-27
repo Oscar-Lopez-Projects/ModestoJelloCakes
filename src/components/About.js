@@ -10,6 +10,7 @@ import Team from "./Team";
 import OrderExample from "./OrderExample";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
+import UpdatedNavBar from './UpdatedNavBar.js';
 
 const About = ()=>{
     const [loading, setLoading]= useState(false);
@@ -25,6 +26,7 @@ const About = ()=>{
         { loading? <div className="loader-center"> <Loader type="BallTriangle" color="#3c72a3" height={80} width={80} /> </div> :
         <>
             <NavBar />
+            <UpdatedNavBar />
                 <div className="top-div-1">
                     <div className="left-about">
                         <div className="about-para-div">
