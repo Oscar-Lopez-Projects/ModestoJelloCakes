@@ -29,7 +29,7 @@ const HomeDiv = ()=>{
           </div>
           <div className='steps-to-order'>
             <img className='steps-design-adjustment' src={steptwo} />
-            <p className='process-para-bold'>PICK DESIRE CAKE SHAPE & PRESS DETAILS</p>
+            <p className='process-para-bold'>CHOOSE DESIRED CAKE SHAPE & PRESS DETAILS</p>
           </div>
           <div className='arrow-steps2'>
             <img className='pink-arrow' src={rightarrow} />

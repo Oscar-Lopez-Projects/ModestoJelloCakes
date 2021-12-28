@@ -8,8 +8,8 @@ const WhyOnline = ()=>{
         <>
         <div className="whywhy">
             <div className='loyalty-program'>
-                <div style={{padding:"10px"}}>
-                <h1 className='rewards-title'>Modesto Jello Cakes just got even better!</h1>
+                <div className='program-div'>
+                <div className='rewards-title'>Modesto Jello Cakes just got even better!</div>
                     <p className='para-rewards'>New! Members get 5% back in ExtraBucks Rewards® even faster.* Enjoy a new birthday treat, too.</p>
                     <p className='para-rewards-bold'>To join ExtraCare, start by creating an account.</p>
                 </div>
