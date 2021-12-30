@@ -7,6 +7,7 @@ import 'react-calendar/dist/Calendar.css';
 import moment from 'moment';
 import 'antd/dist/antd.css'
 import { TimePicker } from 'antd';
+import UpdatedNavBar from './UpdatedNavBar';
 
 const Order = () => {
     const [dateState, setDateState] = useState(new Date())
@@ -16,6 +17,7 @@ const Order = () => {
     return (
         <>
             <NavBar />
+            <UpdatedNavBar />
             <div className="center-order-box">
             <div className="Order-box">
                 <h3>Place An Order </h3>
