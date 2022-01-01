@@ -22,8 +22,9 @@ const Home = () =>{
             <NavBar />
             <UpdatedNavBar />
             <WhyOnline />
+            
             <HomeDiv />
-            <SlideShow />
+            
             <Footer />
             </div>
     

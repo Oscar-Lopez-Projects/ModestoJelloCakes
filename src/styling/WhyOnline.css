@@ -27,7 +27,7 @@
 }
 .reward-button{
     margin-right: 10px;
-    width: 150px;
+    width: 160px;
     height: 40px;
     border: none;
     outline: none;
@@ -112,23 +112,19 @@
     .rewards-title{
         font-size: 25px;
         width: 100%;
+        margin-top: -10px;
+        margin-bottom: 10px;
     }
     .whywhy{
         width: 85vw;
     }
     .program-div{
         width: 100%;
-        
-    }
-    
-    .rewards-buttons{
-        padding-left: 10px;
     }
     .para-rewards, .para-rewards-bold{
         font-size: 15px;
         text-align: left;
         width: 100%;
-       
     }
     .loyalty-program{
         width:40%;
@@ -138,9 +134,47 @@
     .five-percent-image{
         width: 60%;
     }
-
+    .rewards-buttons{
+        width: 115%;
+    }
 
 }
+@media (min-width:576px) and (max-width:768.98px){
+    .whywhy{
+        flex-direction: column-reverse;
+        width: 80vw;
+        border: none;
+    }
+    .rewards-title{
+        font-size: 22px;
+        padding-bottom: 5px;
+        width: 100%;
+    }
+    .program-div{
+        padding: 10px 10px 10px 0px;
+    }
+    .five-percent-image{
+        width: 100%;
+        border-bottom: 2px solid black;
+    }
+    .loyalty-program{
+        width: 100%;
+        padding-left: 10px;
+        text-align: center;
+        margin:0 auto;
+    }
+    .rewards-buttons{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .reward-button{
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        
+    }
+}
+
 @media (min-width:768px) and (max-width:991px){
     .icon-divs{
         width: 150px;

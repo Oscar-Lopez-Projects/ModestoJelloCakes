@@ -2,8 +2,8 @@
     width: 80vw;
     margin: 0 auto;
     display: flex;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    /* padding-top: 50px; */
     justify-content: space-between;
 }
 .slide-boxes{
@@ -35,6 +35,13 @@
         width: 100%;
     }
 }
-@media (min-width:576px) and (max-width:767.98px){
-    
+@media (min-width:576px) and (max-width:768.98px){
+    .slide-div{
+        margin-top: -12px;
+        width: 80vw;
+        margin-bottom: 20px;
+    }
+    .slide-boxes{
+        padding: 10px;
+    }
 }
