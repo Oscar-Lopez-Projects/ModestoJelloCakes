@@ -1,3 +1,4 @@
+
 .footer-div{
     text-align: center;
     margin: 0 auto;
@@ -5,121 +6,58 @@
     width: 95vw;
     align-items: center;
 }
-.mission-title{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-.gat{
-   background: chartreuse;
-    width: 25%;
-}
-.logoz{
-    width: 30%;
-    background: red;
-}
-.mjc-main-logo{
-    width: 65%;
-}
-.links{
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-}
-.link-letter{
-    text-align: initial;
-    width: 45%;
-    margin: 0 auto;
-}
-.quick-links{
-    width: 30%;
-    background: chocolate;
-    display: flex;
-    justify-content: flex-end;
-}
-.quick-link-title{
-    font-size: 25px;
-    font-weight: bold;
-    
-}
-
-.tablet-social{
-    display: none;
-}
-.bottom-footer{
-    display: flex; 
-    justify-content: space-between;
-}
-.social{
-    display: flex;
-    align-items: center;
-}
-.line{
-    border: 1px solid black;
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.img-logo-size{
-    width: 35px;
-    margin-left: 5px;
-    
-}
-/* .main-footer{
+.main-footer{
     display: flex;
     flex-wrap: wrap;
 }
 .mission-title{
     width: 100%;
     display: flex;
-    align-items: center;
-   
+    align-items: flex-start;
+    justify-content: space-between;
 }
 .gat{
     width: 40%;
 }
-.mjc-main-logo{
-    width: 50%;
-}
-.logoz{
-    text-align: right;
-    width:60%;
-}
 .quick-links{
     display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-
 }
-.links{
-    display: flex;
-    width: 100%;
-    align-items: center;
 
-}
-.quick-link-title, .social-link-title{
-    font-size: 16px;
+.quick-link-title{
+    font-size: 25px;
     font-weight: bold;
 }
 .link-letter{
     font-size: 12px;
-    margin-left: 10px;
 }
 .social{
     display: flex;
     align-items: center;
+    flex-direction: column;
+}
+.social{
+    padding-top: 5px;
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    flex-direction: row;
 }
 .img-logo-size{
-    width:35px;
+    width:30px;
     margin-left: 5px;
+}
+.bottom-footer{
+    display: flex;
+    align-items: center;
 }
 .copyright{
     text-align: left;
     padding-top: 5px;
+    width: 50%;
 }
 .line{
     border: 1px solid black;
     width: 100%;
     margin-top: 5px;
 }
- */
+
