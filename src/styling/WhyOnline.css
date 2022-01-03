@@ -144,34 +144,32 @@
         flex-direction: column-reverse;
         width: 80vw;
         border: none;
+        justify-content: left;
     }
-    .rewards-title{
-        font-size: 22px;
-        padding-bottom: 5px;
-        width: 100%;
+    .loyalty-program{
+        width:100%;
     }
     .program-div{
-        padding: 10px 10px 10px 0px;
+        width: 100%;
+        padding: 0px;
+    }
+    .rewards-title{
+        font-size: 25px;
+        
+        padding-top: 5px;
+    }
+    .rewards-buttons{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .reward-button{
+        width: 100%;
+        margin: 5px 0px 5px 0px;
     }
     .five-percent-image{
         width: 100%;
         border-bottom: 2px solid black;
-    }
-    .loyalty-program{
-        width: 100%;
-        padding-left: 10px;
-        text-align: center;
-        margin:0 auto;
-    }
-    .rewards-buttons{
-        display: flex;
-        flex-wrap: wrap;
-
-    }
-    .reward-button{
-        width: 100%;
-        margin: 0px 0px 10px 0px;
-        
     }
 }
 

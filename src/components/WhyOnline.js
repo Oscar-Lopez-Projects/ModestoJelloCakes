@@ -11,16 +11,15 @@ const WhyOnline = ()=>{
         <div className="whywhy">
             <div className='loyalty-program'>
                 <div className='program-div'>
-                <div className='rewards-title'>Modesto Jello Cakes just got even better!</div>
+                    <h1 className='rewards-title'>Modesto Jello Cakes just got even better!</h1>
                     <p className='para-rewards'>New! Members get 5% back in ExtraBucks Rewards® even faster.* Enjoy a new birthday treat, too.</p>
                     <p className='para-rewards-bold'>To join ExtraCare, start by creating an account.</p>
+                </div>
                     <div className='rewards-buttons'>
         
                         <button className='reward-button'>Create an account</button>
                     
                         <button className='reward-button'>Sign in</button>
-                    
-                </div>
                 </div>
                 
             </div>
@@ -28,7 +27,6 @@ const WhyOnline = ()=>{
                 <img src={fiveimage} className='five-img' alt="5-percent-image"/>
             </div>
         </div>
-        <SlideShow />
         <Benefits />
         </>
     )
