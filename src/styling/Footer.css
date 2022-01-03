@@ -13,7 +13,7 @@
 .mission-title{
     width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: space-between;
 }
 .gat{
@@ -21,14 +21,28 @@
 }
 .quick-links{
     display: flex;
+    flex-direction: column;
 }
 
 .quick-link-title{
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
+}
+.links{
+    display: flex;
+    align-items: center;
+   
+}
+.img-mainlogo{
+    text-align: right;
+}
+.main-logo-footer{
+    width: 55%;
+    
 }
 .link-letter{
     font-size: 12px;
+    margin-left: 10px;
 }
 .social{
     display: flex;
@@ -39,7 +53,7 @@
     padding-top: 5px;
     display: flex;
     width: 50%;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-direction: row;
 }
 .img-logo-size{
@@ -49,6 +63,7 @@
 .bottom-footer{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .copyright{
     text-align: left;
