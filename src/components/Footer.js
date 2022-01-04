@@ -5,6 +5,9 @@ import instaLogo from '../../src/instagram.png';
 import facebookLogo from '../../src/facebook.png';
 import phoneLogo from '../../src/text.png';
 import { Link } from 'react-router-dom';
+import {FiFacebook, FiInstagram} from 'react-icons/fi';
+import {FaWhatsapp} from 'react-icons/fa'
+
 
 const Footer = () =>{
     return(
@@ -19,14 +22,17 @@ const Footer = () =>{
                         I don't know if I would call that code inert or a dummy
                         series. It sounds useful to me. Dummy code, in my mind </p>
                         <div className="social">
-                            <a href="https://www.facebook.com/ModestoJelloCake/">
+                            <a href="https://www.facebook.com/ModestoJelloCake/" style={{textAlign:"left" }}>
+           
                                 <img className="img-logo-size" src={facebookLogo} alt="https://www.facebook.com/ModestoJelloCake/" />
                             </a>
                             <a href="https://www.instagram.com/modesto.jello.cakes/">
                                 <img className="img-logo-size" src={instaLogo} alt="Instagram Icon"/>
+                                
                             </a>
                             {/* Need to set up for when clicked, give the option of spanish or english. functionality needed */}
                             <a href="tel:2094121586">
+                                
                                 <img className="img-logo-size" src={phoneLogo} alt="Phone Icon" />
                             </a>
                 </div>

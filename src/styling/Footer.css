@@ -44,21 +44,23 @@
     font-size: 12px;
     margin-left: 10px;
 }
-.social{
+/* .social{
     display: flex;
     align-items: center;
     flex-direction: column;
-}
+} */
 .social{
-    padding-top: 5px;
     display: flex;
     width: 50%;
     justify-content: flex-start;
     flex-direction: row;
+    
 }
+
 .img-logo-size{
     width:30px;
-    margin-left: 5px;
+    margin-right: 5px;
+    text-align: left;
 }
 .bottom-footer{
     display: flex;

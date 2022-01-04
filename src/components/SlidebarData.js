@@ -2,6 +2,8 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
+import * as MdIcon from 'react-icons/md';
+
 
 export const SidebarData = [
   {
@@ -11,33 +13,33 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'Reports',
+    title: 'Gallery',
     path: '/gallery',
-    icon: <IoIcons.IoIosPaper />,
+    icon: <AiIcons.AiFillPicture />,
     cName: 'nav-text'
   },
   {
-    title: 'Products',
+    title: 'Order',
     path: '/order',
     icon: <FaIcons.FaCartPlus />,
     cName: 'nav-text'
   },
   {
-    title: 'Team',
-    path: '/catering',
-    icon: <IoIcons.IoMdPeople />,
-    cName: 'nav-text'
-  },
-  {
-    title: 'Messages',
+    title: 'Contact Us',
     path: '/contact-us',
     icon: <FaIcons.FaEnvelopeOpenText />,
     cName: 'nav-text'
   },
   {
-    title: 'Support',
+    title: 'About Us',
     path: '/about-us',
-    icon: <IoIcons.IoMdHelpCircle />,
+    icon: <IoIcons.IoMdPeople />,
+    cName: 'nav-text'
+  },
+  {
+    title: 'Login',
+    path: '/login',
+    icon: <MdIcon.MdAccountBox />,
     cName: 'nav-text'
   }
 ];
