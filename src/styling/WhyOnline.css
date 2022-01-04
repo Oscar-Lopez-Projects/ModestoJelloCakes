@@ -139,7 +139,13 @@
     }
 
 }
-@media (min-width:576px) and (max-width:768.98px){
+@media (min-width:768px) and (max-width:991px){
+    .icon-divs{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (min-width:575px) and (max-width:768.98px){
     .whywhy{
         flex-direction: column-reverse;
         width: 80vw;
@@ -172,14 +178,7 @@
         border-bottom: 2px solid black;
     }
 }
-
-@media (min-width:768px) and (max-width:991px){
-    .icon-divs{
-        width: 150px;
-        height: 150px;
-    }
-}
-@media (min-width:576px) and (max-width:767.98px){
+@media (min-width:575px) and (max-width:767.98px){
     .benefits-page{
         flex-wrap: wrap;
         padding-bottom: 0px;
@@ -197,4 +196,21 @@
     }
 
 }
+@media (min-width:481px) and (max-width:574.98px){
+    .whywhy{
+        flex-direction: column-reverse;
+        width: 80vw;
+        border: none;
+        justify-content: left;
+        background: green;
+    }
+    .loyalty-program{
+        width:100%;
+    }
+  }
+  @media screen and (max-width:480px){
+    .whywhy{
+      background: red;
+    }
+  }
 
