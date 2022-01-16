@@ -37,6 +37,9 @@
   padding: 15px 0px 15px 0px;
   align-items: center;
 }
+.separator-title{
+  padding: 10px;
+}
 .separatorr h2{
   padding: 0 2rem; 
 }
@@ -83,4 +86,36 @@
     padding: 5px;
   }
 }
-
+@media (min-width:481px) and (max-width:574.98px){
+    .process-home-div{
+      width: 90vw;
+    }
+    .separatorr{
+      width: 90vw;
+    }
+    .separator-title{
+      padding: 0px 5px 0px 5px;
+      font-size: 26px;
+    }
+    .process-home-div{
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 0px;
+    }
+    .arrow-steps2, .arrow-steps4{
+      display: none;
+    }
+    .steps-to-order{
+      width: 39vw;
+      height: 200px;
+    }
+    .steps-design-adjustment{
+        width: 55%;
+    }
+  .slider-container-box{
+    
+    margin-top: -30px;
+  }
+    
+  
+}

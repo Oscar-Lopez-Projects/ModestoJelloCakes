@@ -34,16 +34,16 @@ const SlideShow = ()=>{
               }
             },
             {
-              breakpoint: 576,
+              breakpoint: 574,
               settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 1,
+                slidesToScroll: 1
               }
             }
           ]
       };
     return(
-        <div>
+        <div className="slider-container-box">
           <Slider className='slide-div' {...settings}>
           <div className='slide-boxes'>
             <img className='box-images' src={photo3} />

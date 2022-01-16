@@ -6,6 +6,10 @@
     /* padding-top: 50px; */
     justify-content: space-between;
 }
+.slider-container-box{
+    margin-top: 40px;
+}
+
 .slide-boxes{
     margin: 0 auto;
     padding: 20px;
@@ -25,11 +29,18 @@
     .slide-div{
         padding-top: 0px;
     }
+    .slider-container-box{
+        margin-top: 0px;
+    }
+    
 }
 @media (min-width:768px) and (max-width:991.98px){
     .slide-div{
         padding-top: 0px;
         padding-bottom: 30px;
+    }
+    .slider-container-box{
+        margin-top: 0px;
     }
     .box-images{
         width: 100%;

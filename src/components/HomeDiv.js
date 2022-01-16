@@ -14,7 +14,7 @@ const HomeDiv = ()=>{
       
       <div class="separatorr">
                 <div class="linee"></div>
-                    <h3 className='separator-title' style={{color:"#3c72a3",fontWeight:"bold"}}>HOW TO PLACE AN ORDER ONLINE</h3>
+                    <h3 className='separator-title' style={{color:"#3c72a3",fontWeight:"bold"}}>HOW TO PLACE AN ORDER TODAY</h3>
             <div class="linee"></div>
             </div>
       

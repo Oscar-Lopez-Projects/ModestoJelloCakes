@@ -6,7 +6,8 @@ import reward from "../reward.png";
 const Benefits = ()=>{
     return(
         <>
-        <h3 style={{textAlign:"left", Top:"20px", margin:"0 auto", width:"80vw", color:"#3c72a3",fontWeight:"bold"}}>Program Benefits</h3>
+        {/* {style={{textAlign:"left", Top:"20px", margin:"0 auto", width:"80vw", color:"#3c72a3",fontWeight:"bold"}}} */}
+        <h3 className="program-benefits-title" >Program Benefits</h3>
         <div className="benefits-page">
 
             <div className="icon-info-div">

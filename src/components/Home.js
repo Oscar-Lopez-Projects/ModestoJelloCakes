@@ -25,7 +25,7 @@ const Home = () =>{
             
             <HomeDiv />
             <SlideShow />
-            <Footer />
+            {/* <Footer /> */}
             </div>
     
             }
