@@ -1,6 +1,6 @@
 .whywhy{
     display: flex;
-    width: 80vw;
+    width: 85vw;
     margin: 0 auto;
     align-items: center;
     border-bottom: 3px solid black;
@@ -63,9 +63,7 @@
 .reward-button:hover:before{
     opacity: 1;
 }
-.program-div{
-    padding: 10px;
-}
+
 .reward-button::after{
     z-index: -1;
     content: '';
@@ -93,7 +91,7 @@
 .benefits-page{
     padding-top: 30px;
     padding-bottom: 100px;
-    width: 80vw;
+    width: 85vw;
     margin: 0 auto;
     display: flex;
     
@@ -109,7 +107,7 @@
     height: 100%;
 }
 .program-benefits-title{
-    width: 80vw;
+    width: 85vw;
     color: #3c72a3;
     text-align: left;
     font-weight: bold;
@@ -124,7 +122,7 @@
         margin-bottom: 10px;
     }
     .whywhy{
-        width: 85vw;
+        width: 90vw;
     }
     .program-div{
         width: 100%;
@@ -149,14 +147,13 @@
 }
 @media (min-width:768px) and (max-width:991px){
     .icon-divs{
-        width: 150px;
-        height: 150px;
+        width: 170px;
+        height: 170px;
     }
 }
 @media (min-width:575px) and (max-width:768.98px){
     .whywhy{
         flex-direction: column-reverse;
-        width: 80vw;
         border: none;
         justify-content: left;
     }
@@ -241,11 +238,13 @@
     }
     .benefits-page{
         flex-wrap: wrap;
-        width: 90vw;
+        width: 85vw;
         padding-bottom: 0px;
     }
     .icon-divs{
         margin: 0 auto;
+        width: 180px;
+        height: 180px;
     }
    
     .program-benefits-title{

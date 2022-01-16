@@ -1,5 +1,5 @@
 .slide-div{
-    width: 80vw;
+    width: 85vw;
     margin: 0 auto;
     display: flex;
     /* padding-bottom: 50px; */
@@ -45,8 +45,11 @@
     .box-images{
         width: 100%;
     }
+    .box-images{
+        box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+    }
 }
-@media (min-width:576px) and (max-width:768.98px){
+@media (min-width:556px) and (max-width:768.98px){
     .slide-div{
         margin-top: -12px;
         width: 80vw;
@@ -55,4 +58,13 @@
     .slide-boxes{
         padding: 10px;
     }
+    .slider-container-box{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:555.98px) {
+    .slider-container-box{
+        margin-top: 0px;
+    }
+    
 }

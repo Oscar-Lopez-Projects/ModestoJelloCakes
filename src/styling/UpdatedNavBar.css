@@ -106,4 +106,12 @@
      .ok-omg{
          visibility: visible;
      }
+     .navbar-flex-updated{
+       width: 85px;
+       top: 5px;
+     }
+     .nav-bar{
+       background: chartreuse;
+     }
+     
  }

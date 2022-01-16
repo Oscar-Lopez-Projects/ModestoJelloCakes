@@ -19,7 +19,7 @@ const NavBar = ()=>{
             <div className='logo-resize'>
                 <Link to="/">
                     
-                    <img width="90px"  src={mainLogo} alt="main-logo" />
+                    <img className='modesto-nav-logo'  src={mainLogo} alt="main-logo" />
                     
                  
                  </Link>

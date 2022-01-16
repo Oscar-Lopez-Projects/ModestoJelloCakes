@@ -1,5 +1,5 @@
 .process-home-div{
-  width: 80vw;
+  width: 85vw;
   padding-bottom: 20px;
   margin: 0 auto;
   display: flex;
@@ -32,7 +32,7 @@
 }
 .separatorr{
   display: flex;
-  width: 80vw;
+  width: 85vw;
   margin:0 auto;
   padding: 15px 0px 15px 0px;
   align-items: center;
@@ -76,7 +76,7 @@
     display: none;
   }
   .steps-to-order{
-    width: 25vw;
+    width: 29vw;
     height: 200px;
   }
   .separatorr{
@@ -106,14 +106,13 @@
       display: none;
     }
     .steps-to-order{
-      width: 39vw;
+      width: 29vw;
       height: 200px;
     }
     .steps-design-adjustment{
         width: 55%;
     }
   .slider-container-box{
-    
     margin-top: -30px;
   }
     

@@ -9,8 +9,11 @@ import photo3 from '../../src/MyPost1.png';
 const SlideShow = ()=>{
     const settings = {
         dots: false,
-        
+        autoplay:true,
+  autoplaySpeed:2000,
+  cssEase: "linear",
         infinite: true,
+        pauseOnHover: true,
         slidesToShow: 3,
         slidesToScroll: 1,
         swipeToSlide: true,
@@ -26,7 +29,7 @@ const SlideShow = ()=>{
               }
             },
             {
-              breakpoint: 600,
+              breakpoint: 767,
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
@@ -34,7 +37,7 @@ const SlideShow = ()=>{
               }
             },
             {
-              breakpoint: 574,
+              breakpoint: 506,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
