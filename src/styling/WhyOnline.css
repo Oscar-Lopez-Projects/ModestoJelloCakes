@@ -256,9 +256,14 @@
         font-size: 26px;
     }
   }
-  @media screen and (max-width:480px){
+  @media screen and (max-width:480.98px){
     .whywhy{
       background: red;
+        flex-direction: column-reverse;
+        width: 90vw;
+        border: none;
+        /* background: chocolate; */
+        justify-content: left;
     }
   }
 
