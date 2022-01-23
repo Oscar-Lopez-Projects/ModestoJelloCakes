@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styling/HomeDiv.css';
+import '../styling/HomeDivTwo.css';
 import stepone from '../stepone.png';
 import steptwo from '../steptwo.png';
 import stepthree from '../stepthree.png';
