@@ -27,7 +27,7 @@ const WhyOnline = ()=>{
                 <img src={fiveimage} className='five-img' alt="5-percent-image"/>
             </div>
         </div>
-        {/* <Benefits /> */}
+        <Benefits />
         </>
     )
 }

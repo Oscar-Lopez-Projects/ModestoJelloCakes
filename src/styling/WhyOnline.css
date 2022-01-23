@@ -183,6 +183,7 @@
         border-bottom: 2px solid black;
     }
 }
+/*TODO: combine with the query above */
 @media (min-width:575px) and (max-width:767.98px){
     .benefits-page{
         flex-wrap: wrap;
@@ -257,6 +258,7 @@
     }
   }
   @media screen and (max-width:480.98px){
+      /*homepage first component */
     .whywhy{
         flex-direction: column-reverse;
         width: 90vw;
@@ -285,5 +287,25 @@
         font-size: 26px;
         padding-top: 10px;
     }
+    /*benefits css */
+    .benefits-page{
+        flex-wrap: wrap;
+        width: 90vw;
+        padding-bottom: 0px;
+    }
+    .program-benefits-title{
+        width: 90vw;
+        margin: 0 auto;
+        color:#3c72a3;
+        font-weight: bold;
+        text-align: left;
+        font-size: 26px;
+    }
+
+    .icon-divs{
+        width: 160px;
+        height: 160px;
+    }
+
   }
 
