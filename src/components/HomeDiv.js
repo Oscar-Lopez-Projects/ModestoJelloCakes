@@ -12,7 +12,10 @@ import stepsix from '../stepsix.png';
 const HomeDiv = ()=>{
     return(
       <>
-      
+   { /*Make sure to display:none in media 481px and up */}
+      <div className='mobile-steps-title'>
+      HOW TO PLACE AN ORDER
+      </div>
       <div class="separatorr">
                 <div class="linee"></div>
                     <h3 className='separator-title' style={{color:"#3c72a3",fontWeight:"bold"}}>HOW TO PLACE AN ORDER</h3>
@@ -30,14 +33,14 @@ const HomeDiv = ()=>{
           </div>
           <div className='steps-to-order'>
             <img className='steps-design-adjustment' src={steptwo} />
-            <p className='process-para-bold'>CHOOSE DESIRED CAKE SHAPE & PRESS DETAILS</p>
+            <p className='process-para-bold'>PICK SHAPE & PRESS DETAILS</p>
           </div>
           <div className='arrow-steps2'>
             <img className='pink-arrow' src={rightarrow} />
           </div>
           <div className='steps-to-order'>
             <img className='steps-design-adjustment' src={stepthree} />
-            <p className='process-para-bold'>WRITE DOWN OR COPY SHAPE NUMBER</p>
+            <p className='process-para-bold'>COPY SHAPE NUMBER</p>
           </div>
           <div className='arrow-steps3'>
             <img className='pink-arrow' src={rightarrow} />

@@ -1,5 +1,5 @@
 /*HomeDiv css component*/
-@media screen and (max-width:479px){
+/* @media screen and (max-width:479px){
     .process-home-div{
       background: red;
       display: flex;
@@ -15,4 +15,4 @@
       .arrow-steps2, .arrow-steps4{
         display: none;
       }
-}
+} */

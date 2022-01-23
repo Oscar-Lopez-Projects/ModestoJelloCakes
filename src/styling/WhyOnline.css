@@ -301,9 +301,13 @@
         text-align: left;
         font-size: 26px;
     }
-    .icon-divs{
-        width: 160px;
-        height: 160px;
-    }
+     .icon-divs{
+         width:43vw;
+     }
+     .benefits-icons{
+         width: 145px;
+         height: 145px;
+         
+     }
   }
 
