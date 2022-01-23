@@ -23,8 +23,8 @@ const Home = () =>{
             <UpdatedNavBar />
             <WhyOnline />
             
-            {/* <HomeDiv />
-            <SlideShow /> */}
+            <HomeDiv />
+            {/* <SlideShow /> */}
             {/* <Footer /> */}
             </div>
     
