@@ -17,7 +17,7 @@ const Footer = () =>{
                 <div className="mission-title">
                     <div className="gat">
                         <h2 style={{textAlign:"left",fontWeight: "bold", fontSize:"15px"}} >Our Mission:</h2>
-                        <p style={{textAlign:"left", width:"50%", fontSize:"12px"}}>
+                        <p style={{textAlign:"left", width:"100%", fontSize:"12px"}}>
                         I've provided an answer, but FWIW, as a programmer myself,
                         I don't know if I would call that code inert or a dummy
                         series. It sounds useful to me. Dummy code, in my mind </p>

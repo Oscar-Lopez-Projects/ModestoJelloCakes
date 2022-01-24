@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Footer from "./Footer";
 import HomeDiv from "./HomeDiv";
+import MobileFooter from "./MobileFooter";
 import NavBar from "./NavBar";
 import OrderExample from "./OrderExample";
 import SlideShow from "./SlideShow";
@@ -26,6 +27,7 @@ const Home = () =>{
             <HomeDiv />
             {/* <SlideShow /> */}
             {/* <Footer /> */}
+            <MobileFooter />
             </div>
     
             }

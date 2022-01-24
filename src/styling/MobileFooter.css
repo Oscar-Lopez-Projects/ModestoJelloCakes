@@ -1,0 +1,11 @@
+.mobile-div-footer{
+    width: 100vw;
+    margin: 0 auto;
+}
+.bottom-footer-div{
+    border-top: 1px solid black;
+}
+.copyrights{
+    font-size: 10px;
+    padding-top: 5px;
+}
