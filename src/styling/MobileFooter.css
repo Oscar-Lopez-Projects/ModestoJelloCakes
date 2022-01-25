@@ -1,11 +1,32 @@
 .mobile-div-footer{
     width: 100vw;
     margin: 0 auto;
+    background: #3c72a3;
 }
 .bottom-footer-div{
     border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.top-footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #3c72a3;
 }
 .copyrights{
     font-size: 10px;
     padding-top: 5px;
+}
+.link-letter-mobile{
+    color: white;
+}
+.links-mobile{
+    display: flex;
+}
+.mobile-mainlogo{
+    width: 10%;
+}
+.mobile-logo-footer{
+    width: 100%;
 }
