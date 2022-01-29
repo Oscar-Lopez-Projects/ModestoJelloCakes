@@ -7,6 +7,9 @@
   align-items: center;
  
 }
+.mobile-steps-title{
+  display: none;
+}
 .steps-to-order{
   width: 11.6vw;
   margin: 0 auto;
