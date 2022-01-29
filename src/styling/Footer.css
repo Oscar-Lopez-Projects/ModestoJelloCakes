@@ -1,4 +1,10 @@
-
+.footer-container{
+    background: #e6f1fc;
+    margin-top: 50px;
+    font-weight: bold;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
 .footer-div{
     text-align: center;
     margin: 0 auto;
@@ -6,10 +12,7 @@
     width: 95vw;
     align-items: center;
 }
-.main-footer{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .mission-title{
     width: 100%;
     display: flex;
@@ -17,7 +20,7 @@
     justify-content: space-between;
 }
 .gat{
-    width: 40%;
+    width: 25%;
 }
 .quick-links{
     display: flex;
@@ -77,5 +80,6 @@
     width: 100%;
     margin-top: 5px;
 }
+
 
 

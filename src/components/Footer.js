@@ -5,22 +5,21 @@ import instaLogo from '../../src/instagram.png';
 import facebookLogo from '../../src/facebook.png';
 import phoneLogo from '../../src/text.png';
 import { Link } from 'react-router-dom';
-import {FiFacebook, FiInstagram} from 'react-icons/fi';
-import {FaWhatsapp} from 'react-icons/fa'
-
 
 const Footer = () =>{
     return(
-        <div>
+        <div className="footer-container">
         <div className="footer-div">
             <div className="main-footer">
                 <div className="mission-title">
                     <div className="gat">
-                        <h2 style={{textAlign:"left",fontWeight: "bold", fontSize:"15px"}} >Our Mission:</h2>
-                        <p style={{textAlign:"left", width:"100%", fontSize:"12px"}}>
-                        I've provided an answer, but FWIW, as a programmer myself,
-                        I don't know if I would call that code inert or a dummy
-                        series. It sounds useful to me. Dummy code, in my mind </p>
+                        <div className="our-mission-footer">
+                            <h2 style={{textAlign:"left",fontWeight: "bold", fontSize:"15px"}} >Our Mission:</h2>
+                            <p style={{textAlign:"left", width:"100%", fontSize:"12px"}}>
+                            I've provided an answer, but FWIW, as a programmer myself,
+                            I don't know if I would call that code inert or a dummy
+                            series. It sounds useful to me. Dummy code, in my mind </p>
+                        </div>
                         <div className="social">
                             <a href="https://www.facebook.com/ModestoJelloCake/" style={{textAlign:"left" }}>
            
@@ -35,15 +34,15 @@ const Footer = () =>{
                                 
                                 <img className="img-logo-size" src={phoneLogo} alt="Phone Icon" />
                             </a>
-                </div>
+                        </div>
                     </div>
                     {/* make a div to carry two links per row */}
-                            <div className="quick-links">
+                        
                                 <div className="img-mainlogo">
                                     <img className="main-logo-footer" src={mainLogo}/>
                                 </div>
                               
-                        </div>
+                        
                 </div>
     
 

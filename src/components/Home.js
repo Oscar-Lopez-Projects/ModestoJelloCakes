@@ -25,9 +25,9 @@ const Home = () =>{
             <WhyOnline />
             
             <HomeDiv />
-            {/* <SlideShow /> */}
-            {/* <Footer /> */}
+            <SlideShow />
             <MobileFooter />
+            {/* <Footer /> */}
             </div>
     
             }

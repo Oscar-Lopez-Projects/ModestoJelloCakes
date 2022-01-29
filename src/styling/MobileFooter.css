@@ -1,11 +1,10 @@
-.mobile-div-footer{
-    width: 100vw;
+.img-mainlogo-mobile{
+    width:250px;
     margin: 0 auto;
 }
-.bottom-footer-div{
-    border-top: 1px solid black;
+.main-logo-footer-mobile{
+    width: 100%;
 }
-.copyrights{
-    font-size: 10px;
-    padding-top: 5px;
+.mission-mobile{
+    padding: 20px;
 }
