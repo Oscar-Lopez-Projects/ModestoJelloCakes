@@ -1,8 +1,15 @@
-.mobile-div-footer{
-    width: 100vw;
+.img-mainlogo-mobile{
+    width:250px;
     margin: 0 auto;
     background: #3c72a3;
 }
+<<<<<<< HEAD
+.main-logo-footer-mobile{
+    width: 100%;
+}
+.mission-mobile{
+    padding: 20px;
+=======
 .bottom-footer-div{
     border-top: 1px solid black;
     display: flex;
@@ -29,4 +36,5 @@
 }
 .mobile-logo-footer{
     width: 100%;
+>>>>>>> f289f7c1e731ac8d068bb9fcae7d29b71f93c73f
 }

@@ -26,8 +26,12 @@ const Home = () =>{
             
             <HomeDiv />
             <SlideShow />
+<<<<<<< HEAD
             {/* <Footer /> */}
+=======
+>>>>>>> 72595ddc3ebea7e4f04a2b1a04674393b072a202
             <MobileFooter />
+            {/* <Footer /> */}
             </div>
     
             }
