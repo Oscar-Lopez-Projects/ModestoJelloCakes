@@ -7,6 +7,8 @@ import LoginLogo from '../whitelogin3.png';
 import '../styling/NavBar.css';
 import { Link } from 'react-router-dom';
 import {RouterLink} from './Styling';
+import {BsBagPlus} from "react-icons/bs";
+import {VscAccount} from "react-icons/vsc";
 import ScrollToTop from './ScrollToTop';
 const NavLinks = styled.p`
     font-size:15px;
@@ -48,10 +50,8 @@ const NavBar = ()=>{
             </div>
 
             <div>
-                <RouterLink style={{textDecoration:"none", color:"white"}} to="/login">
-                    <img width="60px" src={LoginLogo} alt="business-logo"/>
-                    My Account
-               </RouterLink>
+               <VscAccount className="nav-react-icons"/>
+               <BsBagPlus className="nav-react-icons"/>
             </div>
            
         </div>

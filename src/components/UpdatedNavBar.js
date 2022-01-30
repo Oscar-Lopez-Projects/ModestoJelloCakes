@@ -15,12 +15,15 @@ function UpdatedNavBar() {
       <IconContext.Provider value={{ color: '#fff' }}>
          <div>
             <div className='navbar'>
-                
-                <Link to='#' className='menu-bars'>
-                    <FaIcons.FaBars onClick={showSidebar} />
-                </Link>
+                <div>
+                  <Link to='#' className='menu-bars'>
+                      <FaIcons.FaBars onClick={showSidebar} />
+                  </Link>
+
+                </div>
+              
                 <div className='pl'>
-                <img className='navbar-flex-updated'  src={mainLogo}/>
+                  <img className='navbar-flex-updated'  src={mainLogo}/>
                 </div>
                 
                 

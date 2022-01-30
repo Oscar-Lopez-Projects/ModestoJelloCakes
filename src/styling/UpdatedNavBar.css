@@ -10,15 +10,19 @@
     justify-content:space-between;
     align-items: center;
   }
-  .navbar-flex-updated{
+  /* .navbar-flex-updated{
       width: 100px;
       position: fixed;
       top: 0;
-  }
-  .pl{
+  } */
+  /* .pl{
       top:0;
       width: 40%;
+  } */
+  .navbar-flex-updated{
+    margin-right: 25px;
   }
+  /* remember to do 15 in ^ margin when i go to 320px*/
   
   .menu-bars {
     margin-left: 2rem;
@@ -39,7 +43,7 @@
     justify-content: center;
     position: fixed;
     top: 20px;
-    left: -100%;
+    right: -100%;
     transition: 850ms;
   }
   .ok-omg{

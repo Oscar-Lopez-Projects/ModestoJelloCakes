@@ -5,7 +5,6 @@ import Footer from "./Footer.js";
 import NavBar from "./NavBar";
 import OrderExample from "./OrderExample";
 import SlideShow from "./SlideShow";
-import UpdatedNav from "./UpdatedNav.js";
 import WhyOnline from "./WhyOnline";
 import UpdatedNavBar from "./UpdatedNavBar.js";
 const Home = () =>{
@@ -21,14 +20,13 @@ const Home = () =>{
         <>
             { loading ? <OrderExample /> :
             <div>
-            {/* <NavBar /> */}
-            <UpdatedNav />
+            <NavBar />
             <WhyOnline />
             {/* <UpdatedNav /> */}
-            {/* <UpdatedNavBar /> */}
+            <UpdatedNavBar />
             <HomeDiv />
             <SlideShow />
-            <Footer />
+            {/* <Footer /> */}
             {/* <MobileFooter /> */}
             {/* <Footer /> */}
             </div>
