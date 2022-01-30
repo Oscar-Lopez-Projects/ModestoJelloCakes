@@ -34,7 +34,7 @@
 .links{
     display: flex;
     justify-content: flex-start;
-    
+    align-items: center
 }
 .img-mainlogo{
     text-align: right;

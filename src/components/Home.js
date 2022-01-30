@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
-// import MobileFooter from './MobileFooter.js';
+import MobileFooter from './MobileFooter.js';
 import HomeDiv from "./HomeDiv";
+import Footer from "./Footer.js";
 import NavBar from "./NavBar";
 import OrderExample from "./OrderExample";
 import SlideShow from "./SlideShow";
-import UpdatedNavBar from "./UpdatedNavBar";
+import UpdatedNav from "./UpdatedNav.js";
 import WhyOnline from "./WhyOnline";
+import UpdatedNavBar from "./UpdatedNavBar.js";
 const Home = () =>{
     const [loading, setLoading]= useState(false);
 
@@ -19,13 +21,14 @@ const Home = () =>{
         <>
             { loading ? <OrderExample /> :
             <div>
-            <NavBar />
-            <UpdatedNavBar />
+            {/* <NavBar /> */}
+            <UpdatedNav />
             <WhyOnline />
-            
+            {/* <UpdatedNav /> */}
+            {/* <UpdatedNavBar /> */}
             <HomeDiv />
             <SlideShow />
-            {/* <Footer /> */}
+            <Footer />
             {/* <MobileFooter /> */}
             {/* <Footer /> */}
             </div>

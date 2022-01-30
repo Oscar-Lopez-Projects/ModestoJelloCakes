@@ -8,8 +8,9 @@
  
 }
 .mobile-steps-title{
-  display: none ;
+  visibility: hidden;
 }
+
 .steps-to-order{
   width: 11.6vw;
   margin: 0 auto;
@@ -50,9 +51,7 @@
   flex: 1;
   border:1px solid black;
 }
-.mobile-steps-title{
-  display: none;
-}
+
 
 @media (min-width:768px) and (max-width:1199.98px){
   .process-home-div{
@@ -96,6 +95,7 @@
     .separatorr{
       width: 90vw;
     }
+
     .separator-title{
       padding: 0px 5px 0px 5px;
       font-size: 26px;
@@ -137,11 +137,9 @@
     .arrow-steps1, .arrow-steps3,.arrow-steps5{
       width: 10vw;
     }
-    .separator-title{
-      width: 90vw;
-    }
     .mobile-steps-title{
       width: 90vw;
+      visibility: visible;
       margin:0 auto;
       font-size: 26px;
       font-weight: bold;

@@ -3,23 +3,22 @@
     margin: 0 auto;
     background: #3c72a3;
 }
-<<<<<<< HEAD
-.main-logo-footer-mobile{
-    width: 100%;
-}
-.mission-mobile{
-    padding: 20px;
-=======
-.bottom-footer-div{
-    border-top: 1px solid black;
+.bottom-footer-div-m{
     display: flex;
     justify-content: space-between;
+    width: 85vw;
+    margin: 0 auto;
 }
-.top-footer-div{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+.mobile-div-footer{
     background: #3c72a3;
+}
+.top-footer-div-m{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    margin: 0 auto;
+    /* background: #3c72a3; */
 }
 .copyrights{
     font-size: 10px;
@@ -36,5 +35,4 @@
 }
 .mobile-logo-footer{
     width: 100%;
->>>>>>> f289f7c1e731ac8d068bb9fcae7d29b71f93c73f
 }
