@@ -9,7 +9,7 @@ import photo3 from '../../src/MyPost1.png';
 const SlideShow = ()=>{
     const settings = {
         dots: false,
-        autoplay:true,
+        // autoplay:true,
   autoplaySpeed:2000,
   cssEase: "linear",
         infinite: true,
@@ -50,6 +50,7 @@ const SlideShow = ()=>{
           <Slider className='slide-div' {...settings}>
           <div className='slide-boxes'>
             <img className='box-images' src={photo3} />
+            <h3>Watermelon Flavor</h3>
           </div>
           <div className='slide-boxes'>
           <img className='box-images' src={Photo2} />

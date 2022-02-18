@@ -7,6 +7,8 @@ import OrderExample from "./OrderExample";
 import SlideShow from "./SlideShow";
 import WhyOnline from "./WhyOnline";
 import UpdatedNavBar from "./UpdatedNavBar.js";
+import Benefits from './Benefits.js';
+
 const Home = () =>{
     const [loading, setLoading]= useState(false);
 
@@ -22,10 +24,10 @@ const Home = () =>{
             <div>
             <NavBar />
             <WhyOnline />
+            <Benefits />
             {/* <UpdatedNav /> */}
             <UpdatedNavBar />
             <HomeDiv />
-            <SlideShow />
             {/* <Footer /> */}
             {/* <MobileFooter /> */}
             {/* <Footer /> */}

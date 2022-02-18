@@ -9,9 +9,22 @@
 .slider-container-box{
     margin-top: 40px;
 }
+.slider-container-box{
+    display: flex;
+    justify-content: space-between;
+}
 
-.slide-boxes{
+.box-images{
     margin: 0 auto;
+    width: 100%;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+/* .slide-boxes{
+    margin: 0 auto;
+    background: red;
     padding: 20px;
 }
 .box-images{
@@ -20,7 +33,7 @@
     border: 2px solid black;
     border-radius: 25px;
     box-shadow: 8px 8px 8px 4px rgba(0,0,0,0.3);
-}
+} */
 .slick-prev:before, .slick-next:before{
     color:#03529c;
     font-size: 25px;
