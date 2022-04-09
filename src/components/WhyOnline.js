@@ -4,6 +4,7 @@ import fiveimage from '../final5back14.png';
 
 import Slider from 'react-slick';
 import SlideShow from './SlideShow';
+import ThreeDCaro from './ThreeDCaro';
 
 const WhyOnline = ()=>{
     return(
@@ -24,10 +25,10 @@ const WhyOnline = ()=>{
                 
             </div>
             <div className='five-percent-image'>
-                <img src={fiveimage} className='five-img' alt="5-percent-image"/>
+               <ThreeDCaro />
+                {/* <img src={fiveimage} className='five-img' alt="5-percent-image"/> */}
             </div>
         </div>
-        <SlideShow />
         </>
     )
 }

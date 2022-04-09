@@ -8,21 +8,23 @@ import SlideShow from "./SlideShow";
 import WhyOnline from "./WhyOnline";
 import UpdatedNavBar from "./UpdatedNavBar.js";
 import Benefits from './Benefits.js';
+import ThreeDCaro from "./ThreeDCaro.js";
 
 const Home = () =>{
     const [loading, setLoading]= useState(false);
 
-    // useEffect(()=>{
-    //   setLoading(true)
-    //   setTimeout(()=>{
-    //     setLoading(false)
-    //   }, 3800)
-    // }, [])
+    useEffect(()=>{
+      setLoading(true)
+      setTimeout(()=>{
+        setLoading(false)
+      }, 3800)
+    }, [])
     return(
         <>
             { loading ? <OrderExample /> :
             <div>
             <NavBar />
+            
             <WhyOnline />
             <Benefits />
             {/* <UpdatedNav /> */}

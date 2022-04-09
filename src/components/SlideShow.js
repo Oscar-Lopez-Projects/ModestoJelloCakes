@@ -14,7 +14,7 @@ const SlideShow = ()=>{
   cssEase: "linear",
         infinite: true,
         pauseOnHover: true,
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         swipeToSlide: true,
         
@@ -22,8 +22,8 @@ const SlideShow = ()=>{
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 1,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: false
               }
@@ -49,11 +49,10 @@ const SlideShow = ()=>{
         <div className="slider-container-box">
           <Slider className='slide-div' {...settings}>
           <div className='slide-boxes'>
-            <img className='box-images' src={photo3} />
-            <h3>Watermelon Flavor</h3>
+            <img className='five-img'src={photo3} />
           </div>
           <div className='slide-boxes'>
-          <img className='box-images' src={Photo2} />
+          <img className='five-img' src={Photo2} />
           </div>
           <div className='slide-boxes'>
           <img className='box-images' src={Photo1} />
